@@ -1,0 +1,72 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  margin-bottom: 35px !important;
+}
+
+.number{
+  margin:10px;
+}
+
+.unit-name {
+  display: inline-block;
+  width: 60px;
+}
+
+.minus, .plus {
+  width:30px;
+  height:40px;
+  background:#f2f2f2;
+  border-radius:4px;
+  padding:8px 5px 8px 5px;
+  border:1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+input{
+  height:40px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.unit-groups-container {
+  display: flex;
+  flex-direction: row;
+  border: solid, thick, black !important;
+}
+
+.unit-group.defenders {
+  padding-left: 50px;
+}
+
+.unit-groups-calc-btn {
+  margin-top: 25px !important;
+}
+
+.battle-outcome {
+  margin-top: 20px;
+}
+
+.unit-group-header {
+  align-content: center !important;
+  text-align: center !important;
+  background-color: pink !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: red !important;
+  border-radius: 1px;
+  border-width: 1px;
+  border: solid;
+}
